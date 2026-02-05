@@ -1,15 +1,47 @@
-.navBar{
+.NavBar{
+    display: flex;
+    justify-content: space-around;
     background-color: #205691;
     height: 15vh;
-    display: flex;
     align-items: center;
-    justify-content: space-around;
+    
+}
+ul{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+
+}
+a{
+    color: black;
+    font-size: 1.75rem;
 }
 
-ul{
-    border: solid black;
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    
+.imgPerfil{
+    height: 12vh;
+    width: 6vw;
+    border-radius: 100%;
+    border: solid #00aaff 5px;
+
+
+}
+
+//--------------Responsivo------------
+
+@media (min-width: 201px) and (max-width: 500px) {
+  .navBar {
+    height: 10vh;
+    a {
+      font-size: 0.85rem;
+    }
+
+    .logo {
+      width: 10vw;
+    }
+
+    .imgPerfil {
+      height: 6vh;
+      width: 10vw;
+    }
+  }
 }

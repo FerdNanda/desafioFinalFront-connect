@@ -1,18 +1,36 @@
+.containerTelaInicial{
+    background-color: rgb (209,209,201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+div{
+    // border: solid yellow;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
 h1{
-    
-    padding-top: 10px;
-    text-align: center;
-    font-size: 1.75rem;
-    color: #205691;
+   font-size: 3rem; 
+   width: 80%;
+   color: #205691;
+   margin-bottom:2rem ;
+
 }
+
 p{
-    display: flex;
-    font-size: 1.4rem;
-    text-align: left;
+    font-size: 1.5rem;
+    width: 60%;
+
 }
-imgQuemSomos{
-    display: flex;
-    width: 10vw;
-    height: 5vh;
-    background-color: black;
 }
+
+
+

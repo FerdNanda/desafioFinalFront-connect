@@ -1,35 +1,32 @@
+import styles from "./Perfil.module.scss";
+import imgPerfil from "../../assets/imgPerfil.png"
 function Perfil() {
   return (
+    <section className={styles.containerTelaPerfil}>
+      <article>
+        <img src={imgPerfil} alt="foto de perfil" />
 
-   <>
+        <div className={styles.cardInfo}>
+          <h2>Fernanda Laia</h2>
+          <h3>Voluntaria</h3>
+          <p className={styles.paragrafoSobreMim}>sobre mim</p>
 
+          <address>
+            <p>sp</p>
+            <p>email</p>
+            <p>desde2026</p>
+          </address>
 
-</>
-
-  )
+          <ul className={styles.listaInteresses}>
+            <li>educação</li>
+            <li>meio ambiente</li>
+            <li>assistencia social</li>
+            <li>design</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  );
 }
 
-      
-/* //     Section (Rosa):
-// Envolve toda a área do perfil, funcionando como o container principal da página.
-
-// Article (Cinza):
-// Representa o card do perfil, onde todo o conteúdo principal está agrupado.
-
-// Imagem:
-// Exibe a foto do voluntário, posicionada dentro do article.
-
-// Div (Marrom):
-// Responsável por envolver todos os textos do perfil, como nome, descrição e informações extras.
-
-// Address (Roxo):
-// Usado para informações de contato e localização.
-// (Essa tag ainda não foi vista em aula, mas é própria para endereços e dados pessoais: <address>).
-
-// Ul (Azul):
-// Lista de áreas de atuação ou interesses do voluntário, organizada em forma de tags. */
-    
-//     
-
 export default Perfil;
-  

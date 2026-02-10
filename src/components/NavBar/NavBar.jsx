@@ -6,10 +6,12 @@ import Acoes from "../AçõesDaConnect/Acoes";
 import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
 
+
 import logo from "../../assets/logo.png";
 import imgPerfil from "../../assets/imgPerfil.png";
 
 import styles from "./NavBar.module.scss"
+
 
 function NavBar() {
 
@@ -48,6 +50,7 @@ function NavBar() {
         <Route path="/acoes" element={<Acoes />} />
         <Route path="/quemSomos" element={<QuemSomos />} />
         <Route path="/perfil" element={<Perfil />} />
+       
       </Routes>
 
     </BrowserRouter>

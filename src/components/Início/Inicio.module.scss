@@ -1,9 +1,12 @@
 .containerTelaInicial{
     background-color: rgb (209,209,201);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:center;
     width: 100%;
+    
+    
+    
 
 
 div{
@@ -13,14 +16,17 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 17px;
+    color: #205691;
+
 
 
 }
 
 h1{
-   font-size: 3rem; 
-   width: 80%;
-   color: #205691;
+   font-size: 5rem; 
+
+//   color: #205691;
    margin-bottom:2rem ;
 
 }
@@ -28,6 +34,7 @@ h1{
 p{
     font-size: 1.5rem;
     width: 60%;
+    // color: #205691;
 
 }
 }

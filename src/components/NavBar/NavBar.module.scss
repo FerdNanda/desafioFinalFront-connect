@@ -5,6 +5,8 @@
     height: 15vh;
     align-items: center;
     width: 100%;
+   position: fixed;
+  
 }
 ul{
     display: flex;
@@ -13,12 +15,12 @@ ul{
 
 }
 a{
-    color: black;
+    color: #fff;
     font-size: 1.75rem;
 }
 
 .imgPerfil{
-    height: 12vh;
+    height: 10vh;
     width: 6vw;
     border-radius: 100%;
     border: solid #00aaff 5px;

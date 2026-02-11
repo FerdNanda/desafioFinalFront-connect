@@ -1,37 +1,29 @@
 import styles from "./Footer.module.scss";
 
 import logo from "../../assets/logo.png";
-import whatsapp from "../../assets/whatsapp.png";
-import instagram from "../../assets/instagram.png";
-import linkedin from "../../assets/linkedin.png";
-
-
+import Whatsapp from "../../assets/whatsapp.png";
+import Instagram from "../../assets/instagram.png";
+import Linkedin from "../../assets/linkedin.png";
 
 function Footer() {
   return (
-    <section className={styles.Footer}>
-
- 
-      <img className={logo.Footer} src={logo} alt="Logo" />
-
-
-
-      <h1>Connect</h1>
-
+    <Footer>
+      <div>
+        <img src={logo} alt="Logo da connect" />
+        <h2>Connect</h2>
+      </div>
       <p>
         © 2026 Vai na Web & Empower. Todos os direitos reservados. Projeto
         destinado exclusivamente a fins educativos.
       </p>
 
-
-      <img className={styles.whatsapp} src={whatsapp} alt="Whatsapp" />
-      <img className={styles.instagram} src={instagram} alt="Instagram" />
-      <img className={styles.linkedin} src={linkedin} alt="LinkedIn" />
-      
-   
-    </section>
-
+    <nav className={styles.navFooter}>
+        <img src={Whatsapp} alt="Logo do Whatsapp" />
+        <img src={Instagram} alt="Logo do Instagram" />
+        <img src={Linkedin} alt="Logo do LinkedIn" />
+      </nav>
+    </Footer>
   );
 }
 
-export default Footer
+export default Footer;
